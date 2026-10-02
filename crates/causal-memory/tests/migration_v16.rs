@@ -87,6 +87,7 @@ fn migration_from_v15_widens_relation_check() {
             2000,
             Some("negative"),
             None,
+            None,
         )
         .unwrap();
     assert_eq!(store.count_edges().unwrap(), 2);
