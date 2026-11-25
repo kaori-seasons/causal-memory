@@ -11,7 +11,7 @@
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Status: v0.10.0](https://img.shields.io/badge/status-v0.10.0--alpha-orange.svg)](#status)
 [![Tests: 368](https://img.shields.io/badge/tests-368-brightgreen.svg)](#build--test)
-[![Release: v0.10.0](https://img.shields.io/badge/release-v0.10.0-blue.svg)](https://github.com/JingxuanC/causal-memory/releases)
+[![Release: v0.10.0](https://img.shields.io/badge/release-v0.10.0-blue.svg)](https://github.com/kaori-seasons/causal-memory/releases)
 [![Hermes plugin](https://img.shields.io/badge/hermes-plugin-blue.svg)](hermes-plugin/)
 [![DSH plugin](https://img.shields.io/badge/deepseek--harness-plugin-blue.svg)](dsh-plugin/)
 
@@ -224,7 +224,7 @@ window. That's the entire point.
 ## Quick start
 
 ```bash
-git clone https://github.com/JingxuanC/causal-memory.git
+git clone https://github.com/kaori-seasons/causal-memory.git
 cd causal-memory
 cargo build --release
 ```
@@ -271,7 +271,7 @@ Or via the Skills CLI, or by hand:
 ```bash
 # Skills CLI (skills.sh ecosystem) — works with Claude Code, Cursor,
 # Kimi Code CLI, Codex, Copilot and more:
-npx skills add JingxuanC/causal-memory@causal-memory
+npx skills add kaori-seasons/causal-memory@causal-memory
 ```
 
 …or copy `skills/causal-memory/` into your agent's skills directory

@@ -80,7 +80,7 @@ def end_card():
     d.text(((W - d.textlength(t, font=F_BIG)) / 2, 300), t, font=F_BIG, fill=(26, 26, 46))
     s = "让每个 AI Agent 都拥有因果记忆"
     d.text(((W - d.textlength(s, font=F_MID)) / 2, 410), s, font=F_MID, fill=(200, 134, 11))
-    u = "github.com/JingxuanC/causal-memory"
+    u = "github.com/kaori-seasons/causal-memory"
     d.text(((W - d.textlength(u, font=F)) / 2, 470), u, font=F, fill=(108, 117, 125))
     return im
 

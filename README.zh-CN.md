@@ -10,7 +10,7 @@
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Status: v0.10.0](https://img.shields.io/badge/status-v0.10.0--alpha-orange.svg)](#项目状态)
 [![Tests: 368](https://img.shields.io/badge/tests-368-brightgreen.svg)](#构建与测试)
-[![Release: v0.10.0](https://img.shields.io/badge/release-v0.10.0-blue.svg)](https://github.com/JingxuanC/causal-memory/releases)
+[![Release: v0.10.0](https://img.shields.io/badge/release-v0.10.0-blue.svg)](https://github.com/kaori-seasons/causal-memory/releases)
 [![Hermes plugin](https://img.shields.io/badge/hermes-plugin-blue.svg)](hermes-plugin/)
 [![DSH plugin](https://img.shields.io/badge/deepseek--harness-plugin-blue.svg)](dsh-plugin/)
 
@@ -204,7 +204,7 @@ C6 差距（20% vs mem0 30%）是剩余公开局限；C1/C4/C5 相对 v12 的回
 ## 快速开始
 
 ```bash
-git clone https://github.com/JingxuanC/causal-memory.git
+git clone https://github.com/kaori-seasons/causal-memory.git
 cd causal-memory
 cargo build --release
 ```
@@ -242,7 +242,7 @@ Desktop / Kimi Code）：
 ```bash
 # Skills CLI（skills.sh 生态）——支持 Claude Code、Cursor、Kimi Code CLI、
 # Codex、Copilot 等：
-npx skills add JingxuanC/causal-memory@causal-memory
+npx skills add kaori-seasons/causal-memory@causal-memory
 ```
 
 ……或把 `skills/causal-memory/` 复制进 agent 的 skills 目录（例如

@@ -200,7 +200,7 @@ Shipped in the `scripts/` directory **next to this SKILL.md** — resolve
 `<skill_dir>` from the skill listing path (e.g.
 `~/.agents/skills/causal-memory/scripts/…` once installed, or
 `scripts/…` at the source repo root). Repo source of truth:
-`scripts/` in github.com/JingxuanC/causal-memory.
+`scripts/` in github.com/kaori-seasons/causal-memory.
 
 - **`session_to_turns.py`** — CLI converter, agent session log → turns JSON
   (the §4 interchange format). Use when the user's session format has no
@@ -245,4 +245,4 @@ Shipped in the `scripts/` directory **next to this SKILL.md** — resolve
   `intervention_query` / `counterfactual_query` / `reconstruct_lesson` …).
 
 Full reference (17 tools): repo README "MCP tools" —
-github.com/JingxuanC/causal-memory.
+github.com/kaori-seasons/causal-memory.

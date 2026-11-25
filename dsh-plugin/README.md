@@ -13,7 +13,7 @@ DeepSeek Harness 原生记忆插件：把 causal-memory 的 17 个工具以**干
    pip install causal-memory
    ```
    会把 `causal-memory` 命令装到 PATH 上，插件自动解析到它。
-2. **下载预编译二进制**：从 [GitHub Releases](https://github.com/JingxuanC/causal-memory/releases)
+2. **下载预编译二进制**：从 [GitHub Releases](https://github.com/kaori-seasons/causal-memory/releases)
    下载对应平台（Windows / macOS / Linux × x64 / arm64）的压缩包，解压后把
    `causal-memory` 放到 PATH 上（如 `~/bin` 或 `/usr/local/bin`）。
 3. **本仓库开发构建**（克隆到任意位置即可）：

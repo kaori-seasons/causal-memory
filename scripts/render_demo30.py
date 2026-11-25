@@ -94,7 +94,7 @@ def end_card():
     d.text(((W - d.textlength(t, font=F_BIG)) / 2, 290), t, font=F_BIG, fill=(26, 26, 46))
     s = "Agents that warn you before you repeat a mistake"
     d.text(((W - d.textlength(s, font=F_MID)) / 2, 400), s, font=F_MID, fill=(200, 80, 70))
-    u = "github.com/JingxuanC/causal-memory"
+    u = "github.com/kaori-seasons/causal-memory"
     d.text(((W - d.textlength(u, font=F)) / 2, 465), u, font=F, fill=(108, 117, 125))
     return im
 

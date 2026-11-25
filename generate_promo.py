@@ -345,8 +345,8 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
 <div class="cta">
 <h2 class="cta-title">让每个 AI Agent<br>都拥有<span class="hl">因果记忆</span></h2>
 <p class="cta-sub">42 篇源码拆解 · 17 篇跨学科研究 · 20+ 篇论文追踪 · 206 个工程测试</p>
-<a href="https://github.com/JingxuanC/causal-memory" class="cta-btn">⭐ GitHub Star</a>
-<div class="cta-gh">github.com/JingxuanC/causal-memory</div>
+<a href="https://github.com/kaori-seasons/causal-memory" class="cta-btn">⭐ GitHub Star</a>
+<div class="cta-gh">github.com/kaori-seasons/causal-memory</div>
 </div>
 
 <script>

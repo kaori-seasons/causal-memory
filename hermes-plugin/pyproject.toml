@@ -13,7 +13,7 @@ keywords = ["hermes", "agent", "memory", "causal"]
 dependencies = ["causal-memory"]
 
 [project.urls]
-Repository = "https://github.com/JingxuanC/causal-memory"
+Repository = "https://github.com/kaori-seasons/causal-memory"
 
 # Hermes discovers packaged providers through this entry point group.
 [project.entry-points."hermes_agent.memory_providers"]

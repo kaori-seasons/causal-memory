@@ -40,7 +40,7 @@ print(mem.intervention_query("skip the test suite before shipping"))
 Every method mirrors one of the 14 MCP tools and returns plain text that
 agent frameworks (LangChain, LlamaIndex, Hermes, …) can feed straight back
 to the model. See the full method list on
-[GitHub](https://github.com/JingxuanC/causal-memory#fourteen-mcp-tools).
+[GitHub](https://github.com/kaori-seasons/causal-memory#fourteen-mcp-tools).
 
 ## Configuration
 
@@ -84,6 +84,6 @@ can add them later — the store format is the same.
 
 ## Links
 
-- GitHub (full docs, benchmarks, architecture): https://github.com/JingxuanC/causal-memory
-- Changelog: https://github.com/JingxuanC/causal-memory/blob/main/CHANGELOG.md
+- GitHub (full docs, benchmarks, architecture): https://github.com/kaori-seasons/causal-memory
+- Changelog: https://github.com/kaori-seasons/causal-memory/blob/main/CHANGELOG.md
 - License: Apache-2.0

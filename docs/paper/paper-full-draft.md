@@ -124,7 +124,7 @@ Agent memory should be causal, not just factual. We have shown that causal edges
 
 The path forward is not higher benchmark scores on existing QA tasks — it is the design of benchmarks that measure what causal memory uniquely offers: compaction survival, forward simulation accuracy (currently unbenchmarked), and cross-session causal attribution. The causal graph as an explicit world model — with validated backward attribution and implemented-but-unvalidated forward simulation — is the framing that connects agent memory to the broader goal of systems that learn from experience and predict the consequences of their actions.
 
-causal-memory is open-source at `github.com/JingxuanC/causal-memory` (Rust, Apache-2.0, 163 tests, four benchmark harnesses). The design rationale is documented in 17 research notes at `github.com/JingxuanC/agent-teardown/insights`.
+causal-memory is open-source at `github.com/kaori-seasons/causal-memory` (Rust, Apache-2.0, 163 tests, four benchmark harnesses). The design rationale is documented in 17 research notes at `github.com/JingxuanC/agent-teardown/insights`.
 
 ---
 

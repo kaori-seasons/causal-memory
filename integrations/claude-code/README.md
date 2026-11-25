@@ -5,7 +5,7 @@
 
 ```bash
 pip install causal-memory                      # binary on PATH
-claude plugin marketplace add JingxuanC/causal-memory
+claude plugin marketplace add kaori-seasons/causal-memory
 claude plugin install causal-memory@causal-memory
 ```
 

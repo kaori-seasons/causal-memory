@@ -23,7 +23,7 @@ The plugin launches `causal-memory` from PATH:
 pip install causal-memory        # wheel ships the MCP server binary
 ```
 
-(or build from repo: `git clone https://github.com/JingxuanC/causal-memory
+(or build from repo: `git clone https://github.com/kaori-seasons/causal-memory
 && cargo build --release -p causal-memory-cli` and put
 `target/release/causal-memory` on PATH — then optional `causal-memory
 setconfig EMBED_API=... / LLM_API=...` for semantic + LLM features;
@@ -32,7 +32,7 @@ without them everything degrades gracefully to BM25.)
 ## Install (from this repo's marketplace)
 
 ```bash
-claude plugin marketplace add JingxuanC/causal-memory
+claude plugin marketplace add kaori-seasons/causal-memory
 claude plugin install causal-memory@causal-memory
 ```
 

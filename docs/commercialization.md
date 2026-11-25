@@ -98,4 +98,4 @@ L3 OEM/集成授权                           ← 卖"嵌入"
 7. `PROFILE.md`、`crates/causal-memory-py/README.md`、`docs/paper/paper-full-draft.md`(×2) — 引用
 8. `CHANGELOG.md` — 生效版本条目
 
-注意：外部贡献（Hanmiao Li 的 #17，1117 行核心 bugfix）Apache-2.0 与 AGPL-3.0 兼容，可并入，但按惯例需在 PR 留言通知。
+注意：外部贡献（kaori-seasons 的 #17，1117 行核心 bugfix）Apache-2.0 与 AGPL-3.0 兼容，可并入，但按惯例需在 PR 留言通知。

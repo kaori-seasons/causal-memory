@@ -21,7 +21,7 @@ default-members = [
 [workspace.package]
 edition = "2021"
 license = "Apache-2.0"
-repository = "https://github.com/JingxuanC/causal-memory"
+repository = "https://github.com/kaori-seasons/causal-memory"
 version = "0.10.0"
 
 [workspace.dependencies]

@@ -21,7 +21,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/JingxuanC/causal-memory"
+Repository = "https://github.com/kaori-seasons/causal-memory"
 
 [project.scripts]
 causal-memory = "causal_memory:_main"

@@ -162,7 +162,7 @@
   <h1 class="title">causal-memory 深度拆解：唯一建模「抑制」的 Agent 记忆系统</h1>
   <div class="meta">
     Rust · MCP Server · Apache-2.0 · v0.9.2-alpha · 368/368 测试全过 ·
-    <code>github.com/JingxuanC/causal-memory</code>
+    <code>github.com/kaori-seasons/causal-memory</code>
   </div>
   <div class="lede">
     现有的 agent 记忆系统都在回答「<b>发生了什么</b>」——事实、偏好、时序状态。causal-memory 回答的是另外三个问题：
@@ -667,7 +667,7 @@ pip install causal-memory
 }
 
 <span class="c"># 3. 装 skill，教 agent「什么时候主动调」——不配这步它不会主动用</span>
-npx skills add JingxuanC/causal-memory@causal-memory</code></pre>
+npx skills add kaori-seasons/causal-memory@causal-memory</code></pre>
 
   <p>多 agent 共享就用 HTTP 传输：<code>causal-memory http --port 9938</code>（MCP Streamable HTTP，
   同端口带 /metrics、/healthz、/debug/recall 可观测端点——注意无鉴权，别暴露公网）。
@@ -693,7 +693,7 @@ npx skills add JingxuanC/causal-memory@causal-memory</code></pre>
   <div class="sep"></div>
 
   <div class="refs">
-    <b>项目：</b><a href="https://github.com/JingxuanC/causal-memory">github.com/JingxuanC/causal-memory</a>（Rust · Apache-2.0 · v0.9.2-alpha · 368 测试）·
+    <b>项目：</b><a href="https://github.com/kaori-seasons/causal-memory">github.com/kaori-seasons/causal-memory</a>（Rust · Apache-2.0 · v0.9.2-alpha · 368 测试）·
     研究笔记：<a href="https://github.com/JingxuanC/agent-teardown/tree/main/insights">agent-teardown insights/01–17</a><br>
     <b>引用：</b>HeLa-Mem（ACL 2026，Hebbian 兴奋侧）· Anthropic Dreams API（不可变固化）· mem0（写时门控架构）·
     OpenViking（VLDB 2026，L0/L1/L2 分层加载）· MemRL（arXiv:2601.03192，Q-value 记忆动力学）· Pearl 2009 <i>Causality</i><br>

@@ -1,6 +1,6 @@
 # hermes-causal-memory
 
-Hermes memory-provider plugin backed by [causal-memory](https://github.com/JingxuanC/causal-memory) — flat facts + decision→outcome causal lessons on one local SQLite store, with spreading-activation recall.
+Hermes memory-provider plugin backed by [causal-memory](https://github.com/kaori-seasons/causal-memory) — flat facts + decision→outcome causal lessons on one local SQLite store, with spreading-activation recall.
 
 ## Why this provider
 

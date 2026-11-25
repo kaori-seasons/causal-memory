@@ -280,7 +280,7 @@ Ecosystem:
 
 - **Rung-3 SCM ground truth** (structural-causal-model certainty in open
   worlds): per
-  [insights/11](https://github.com/JingxuanC/causal-memory/blob/main/insights/11-causal-state-store.md),
+  [insights/11](https://github.com/kaori-seasons/causal-memory/blob/main/insights/11-causal-state-store.md),
   not achievable for agents acting in open, nonstationary worlds. The R3
   **engineering subset** is in scope since 2026-09-01 — see
   [docs/design/counterfactual-rung3.md](design/counterfactual-rung3.md)

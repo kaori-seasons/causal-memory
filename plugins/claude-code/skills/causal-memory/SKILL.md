@@ -134,4 +134,4 @@ outcome-bearing tool results. Adapt the `convert_*` function to your own
 session format (~1 hour of work), then `distill --dry-run` to verify.
 
 Full reference (17 tools): repo README "MCP tools" —
-github.com/JingxuanC/causal-memory.
+github.com/kaori-seasons/causal-memory.

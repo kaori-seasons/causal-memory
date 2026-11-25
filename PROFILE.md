@@ -61,4 +61,4 @@ causal-memory 是一个用 Rust 实现的因果记忆引擎（MCP Server），�
 
 ## GitHub
 
-**github.com/JingxuanC/causal-memory**
+**github.com/kaori-seasons/causal-memory**

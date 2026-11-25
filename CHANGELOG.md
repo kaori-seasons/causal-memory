@@ -90,7 +90,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   teardown).
 - **Native Claude Code plugin + marketplace** (`plugins/claude-code/` +
   root `.claude-plugin/marketplace.json`): install with
-  `claude plugin marketplace add JingxuanC/causal-memory &&
+  `claude plugin marketplace add kaori-seasons/causal-memory &&
   claude plugin install causal-memory@causal-memory`. Ships the MCP server
   (stdio from PATH), the activation skill, `/recall <task>` (experience
   check before acting) and `/memory-report` (prediction-ledger calibration

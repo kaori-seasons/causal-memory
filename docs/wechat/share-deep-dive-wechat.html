@@ -2,7 +2,7 @@
 
   <p style="color:#4f46e5;font-weight:700;font-size:12px;letter-spacing:2px;margin:0 0 8px;">AGENT 记忆系统 · 开源项目深度分享</p>
   <h1 style="font-size:24px;font-weight:800;line-height:1.35;margin:0 0 14px;letter-spacing:-0.5px;">causal-memory 深度拆解：唯一建模「抑制」的 Agent 记忆系统</h1>
-  <p style="color:#64748b;font-size:13px;line-height:1.7;margin:0 0 16px;">Rust · MCP Server · Apache-2.0 · v0.9.2-alpha · 368/368 测试全过 · <code style="font-family:Menlo,monospace;background:#eef2ff;color:#4f46e5;padding:2px 6px;border-radius:4px;font-size:12px;">github.com/JingxuanC/causal-memory</code></p>
+  <p style="color:#64748b;font-size:13px;line-height:1.7;margin:0 0 16px;">Rust · MCP Server · Apache-2.0 · v0.9.2-alpha · 368/368 测试全过 · <code style="font-family:Menlo,monospace;background:#eef2ff;color:#4f46e5;padding:2px 6px;border-radius:4px;font-size:12px;">github.com/kaori-seasons/causal-memory</code></p>
 
   <section style="font-size:16px;color:#475569;line-height:1.8;background:#f5f3ff;border-left:4px solid #7c3aed;padding:16px 20px;border-radius:0 12px 12px 0;margin-bottom:8px;">
     现有的 agent 记忆系统都在回答「<strong style="color:#0f172a;">发生了什么</strong>」——事实、偏好、时序状态。causal-memory 回答的是另外三个问题：「<strong style="color:#0f172a;">当时为什么这么做</strong>」「<strong style="color:#0f172a;">这么做会怎样</strong>」「<strong style="color:#0f172a;">换个做法会怎样</strong>」。它把事实、时序状态、<code style="font-family:Menlo,monospace;background:#eef2ff;color:#4f46e5;padding:2px 6px;border-radius:4px;font-size:13px;">decision → outcome</code> 因果边统一存进一个 SQLite，用一套仿海马体引擎驱动：带类型的扩散激活（兴奋性 <strong style="color:#0f172a;">和</strong> 抑制性）、Hebbian 共现强化、Q-value 动力学、不可变 SWR 固化。这篇文章把设计动机、引擎原理、16 个工具、查询/写入两条链路讲透，并和 mem0、OpenViking 做一次公允对比。
@@ -343,7 +343,7 @@
     }<br/>
     <br/>
     <span style="color:#64748b;"># 3. 装 skill，教 agent「什么时候主动调」——不配这步它不会主动用</span><br/>
-    npx skills add JingxuanC/causal-memory@causal-memory
+    npx skills add kaori-seasons/causal-memory@causal-memory
   </section>
 
   <p style="font-size:16px;line-height:1.8;color:#334155;margin:13px 0;">多 agent 共享就用 HTTP 传输：<code style="font-family:Menlo,monospace;background:#eef2ff;color:#4f46e5;padding:2px 6px;border-radius:4px;font-size:13px;">causal-memory http --port 9938</code>（MCP Streamable HTTP，同端口带 /metrics、/healthz、/debug/recall 可观测端点——注意无鉴权，别暴露公网）。embedding 可选：不配就退化为纯 BM25；配 HTTP API 或本地 ONNX（BAAI/bge-small-en-v1.5，384 维，下载一次后离线）都行。</p>
@@ -356,7 +356,7 @@
   <hr style="border:none;border-top:1px solid #e2e8f0;margin:36px 0;" />
 
   <p style="font-size:13px;color:#475569;line-height:2;margin:13px 0;">
-    <strong style="color:#0f172a;">项目：</strong>github.com/JingxuanC/causal-memory（Rust · Apache-2.0 · v0.9.2-alpha · 368 测试）· 研究笔记：agent-teardown insights/01–17<br/>
+    <strong style="color:#0f172a;">项目：</strong>github.com/kaori-seasons/causal-memory（Rust · Apache-2.0 · v0.9.2-alpha · 368 测试）· 研究笔记：agent-teardown insights/01–17<br/>
     <strong style="color:#0f172a;">引用：</strong>HeLa-Mem（ACL 2026，Hebbian 兴奋侧）· Anthropic Dreams API（不可变固化）· mem0（写时门控架构）· OpenViking（VLDB 2026，L0/L1/L2 分层加载）· MemRL（arXiv:2601.03192，Q-value 记忆动力学）· Pearl 2009 <em>Causality</em><br/>
     <strong style="color:#0f172a;">数据来源：</strong>CausalEval v13（140q/20 graphs）· LoCoMo（严格 judge）· LongMemEval-S · Memora MPA · grok-build 生产压缩 prompt 实测 · trap-world agent 消融。全部基准 harness 在仓库 <code style="font-family:Menlo,monospace;background:#eef2ff;color:#4f46e5;padding:2px 5px;border-radius:4px;font-size:12px;">benches/</code> 下可复现。
   </p>
